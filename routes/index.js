@@ -70,7 +70,6 @@ module.exports = function() {
 
   // Busqueda de productos
   router.post('/productos/busqueda/:query', 
-    auth,
     productosController.buscarProducto)
 
   /** Pedidos */
